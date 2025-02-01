@@ -23,7 +23,7 @@ A **SimpleVCS** egy egyszerű, saját verziókezelő rendszer, amely lehetővé 
    ```
 4. Fordítsd le és futtasd a programot:
    ```sh
-   javac src/SimpleVCS.java
+   javac -d . src/SimpleVCS.java
    java src.SimpleVCS
    ```
 5. **Parancsok használata:**
@@ -33,6 +33,7 @@ A **SimpleVCS** egy egyszerű, saját verziókezelő rendszer, amely lehetővé 
    > commit "Első commit"  # Lementi a változásokat az adott üzenettel
    > log  # Megjeleníti az eddigi commitokat
    > checkout abc123  # Visszaáll egy adott commit állapotára
+   > exit #Leállítja a programot
    ```
 
 ## Kódszerkezet
