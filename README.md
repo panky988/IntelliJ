@@ -24,7 +24,7 @@ A **SimpleVCS** egy egyszerű, saját verziókezelő rendszer, amely lehetővé 
 4. Fordítsd le és futtasd a programot:
    ```sh
    javac -d . src/SimpleVCS.java
-   java src.SimpleVCS
+   java SimpleVCS
    ```
 5. **Parancsok használata:**
    ```sh
